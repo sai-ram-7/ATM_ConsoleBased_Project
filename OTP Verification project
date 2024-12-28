@@ -26,6 +26,6 @@ server.quit()
 
 userinput = input("Enter OTP recieved to your mail: ")
 if userinput == str(otp):
-    print("OTP Validation Successfull !")
+    print("OTP Verification Successfull !")
 else:
     print("Wrong OTP Entered !")
